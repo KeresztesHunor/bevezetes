@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+#sakktabla {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 5px;
+}
+
+#sakktabla > div {
+  width: 80px;
+  height: 80px;
+}
+
+#sakktabla > div > p {
+  text-align: center;
+}
+
+.korvonalas {
+  border: 1px solid black;
+}
+
+.feher {
+  background-color: white;
+}
+
+.szurke {
+  background-color: gray;
+}
